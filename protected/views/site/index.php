@@ -12,9 +12,7 @@ $this->pageTitle=Yii::app()->name;
 <p>You may change the content of this page by modifying the following two files:</p>
 <ul>
 	<li>View file: <code><?php echo __FILE__; ?></code></li>
-    <FORM ACTION="db_testdb.php" METHOD="POST">
-    <p><INPUT TYPE="submit" NAME="GO" VALUE="TESTDB"></p>
-    </FORM>
+
 	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
 </ul>
 

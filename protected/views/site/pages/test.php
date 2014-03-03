@@ -1,4 +1,6 @@
 <?php
+/* @var $this SiteController */
+/* @var $form CActiveForm */
 /**
  * Created by PhpStorm.
  * User: Christian

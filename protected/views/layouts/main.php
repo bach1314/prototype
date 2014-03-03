@@ -32,9 +32,17 @@
 				array('label'=>'Home', 'url'=>array('/site/index')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
-                array('label'=>'TestForm', 'url'=>array('/site/test')),
+                array('label'=>'CheckIt', 'url'=>array('/checkit')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest),
+                array('subMenuOptions'=>array('class'=>'nav-sub'),'items'=>array(
+                array('label'=>'Account', 'url'=>array('/account')),
+                array('label'=>'Address', 'url'=>array('/address')),
+                array('label'=>'Company', 'url'=>array('/company')),
+                array('label'=>'Confirmation', 'url'=>array('/confirmation')),
+                array('label'=>'Fund', 'url'=>array('/fund')),
+                array('label'=>'Person', 'url'=>array('/person')),
+                array('label'=>'Redemption', 'url'=>array('/redemption'))))
 			),
 		)); ?>
 	</div><!-- mainmenu -->

@@ -39,6 +39,7 @@ class Account extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('account_number', 'required'),
+            array('account_number', 'numerical', 'integerOnly'=>true, 'min'=>0),
 			array('account_number, id_person, id_company, correspondence_person', 'length', 'max'=>12),
 			array('correspondence_address', 'length', 'max'=>10),
 			array('correspondence_language, correspondence_desired', 'safe'),

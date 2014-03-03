@@ -4,7 +4,7 @@
  * This is the model class for table "company".
  *
  * The followings are the available columns in table 'company':
- * @property string $id_company
+ * @property integer $id_company
  * @property string $name
  * @property string $legal_form
  * @property string $phone
@@ -36,7 +36,8 @@ class Company extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('id_company', 'required'),
-			array('id_company', 'length', 'max'=>12),
+            array('id_company', 'numerical', 'integerOnly'=>true, 'min'=>0),
+			array('id_company', 'length', 'max'=>20),
 			array('phone, fax', 'length', 'max'=>20),
 			array('address', 'length', 'max'=>10),
 			array('name, legal_form, email, website', 'safe'),

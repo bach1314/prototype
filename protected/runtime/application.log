@@ -1,0 +1,1500 @@
+2014/02/27 01:23:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=gii
+---
+2014/02/27 06:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/
+---
+2014/02/27 06:33:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:33:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:33:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:34:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/index
+---
+2014/02/27 06:34:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:34:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:34:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:34:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/login
+---
+2014/02/27 06:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/test
+---
+2014/02/27 06:38:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:40:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/02/27 06:43:07 [error] [php] require(/var/www/yii/prototyp/protected/views/site/pages/test.php): failed to open stream: Permission denied (/var/www/yii/framework/web/CBaseController.php:126)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#4 /var/www/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yii/prototyp/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/prototyp/index.php?r=site/page&view=test
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 06:43:36 [error] [php] Undefined variable: model (/var/www/yii/prototyp/protected/views/site/pages/test.php:23)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#4 /var/www/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yii/prototyp/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/prototyp/index.php?r=site/page&view=test
+in /var/www/yii/prototyp/protected/views/site/pages/test.php (23)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 06:47:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/page&view=about
+---
+2014/02/27 06:47:53 [error] [php] Undefined variable: model (/var/www/yii/prototyp/protected/views/site/pages/test.php:23)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /var/www/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#4 /var/www/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yii/prototyp/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/prototyp/index.php?r=site/page&view=test
+in /var/www/yii/prototyp/protected/views/site/pages/test.php (23)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 06:50:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sgii".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('sgii')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=sgii
+---
+2014/02/27 07:25:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/yii/prototyp/protected/controllers/CompanyController.php:157
+Stack trace:
+#0 /var/www/yii/prototyp/protected/controllers/CompanyController.php(55): CompanyController->loadModel('01')
+#1 [internal function]: CompanyController->actionView('01')
+#2 /var/www/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CompanyController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CompanyController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/view')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/view&id=01
+---
+2014/02/27 07:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/yii/prototyp/protected/controllers/CompanyController.php:157
+Stack trace:
+#0 /var/www/yii/prototyp/protected/controllers/CompanyController.php(55): CompanyController->loadModel('01')
+#1 [internal function]: CompanyController->actionView('01')
+#2 /var/www/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(CompanyController), Array)
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(CompanyController), Object(ReflectionMethod), Array)
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/view')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/view&id=01
+---
+2014/02/27 07:26:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:26:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:26:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:26:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:27:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:27:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:28:02 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:28:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:28:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:28:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:29:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:29:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:31:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:31:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:32:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:32:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:32:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:32:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:32:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "a". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:32:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "a". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:32:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:32:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:32:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""5"". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:32:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""5"". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/02/27 07:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "persony/create".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('persony/create')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=persony/create
+---
+2014/02/27 07:33:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "person" ("id_person", "title", "family_name", "surname", "phone", "email", "fax", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/PersonController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:33:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "person" ("id_person", "title", "family_name", "surname", "phone", "email", "fax", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/PersonController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): PersonController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('person/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=person/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=person/create
+---
+2014/02/27 07:33:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "accou t/create".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('accou t/create')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=accou%20t/create
+---
+2014/02/27 07:35:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "accou t/create".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('accou t/create')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=accou%20t/create
+---
+2014/02/27 07:35:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "persony/create".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('persony/create')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=persony/create
+---
+2014/02/27 07:36:15 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: numeric ~~ unknown
+LINE 1: SELECT COUNT(*) FROM "company" "t" WHERE address LIKE $1
+                                                         ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "company" "t" WHERE address LIKE :ycp0.
+in /var/www/yii/prototyp/protected/views/company/admin.php (62)
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (143)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:36:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42883]: Undefined function: 7 ERROR:  operator does not exist: numeric ~~ unknown
+LINE 1: SELECT COUNT(*) FROM "company" "t" WHERE address LIKE $1
+                                                         ^
+HINT:  No operator matches the given name and argument type(s). You might need to add explicit type casts.. The SQL statement executed was: SELECT COUNT(*) FROM "company" "t" WHERE address LIKE :ycp0' in /var/www/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/yii/framework/db/CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(1601): CDbCommand->queryScalar()
+#2 /var/www/yii/framework/web/CActiveDataProvider.php(228): CActiveRecord->count(Object(CDbCriteria))
+#3 /var/www/yii/framework/web/CDataProvider.php(224): CActiveDataProvider->calculateTotalItemCount()
+#4 /var/www/yii/framework/web/CActiveDataProvider.php(178): CDataProvider->getTotalItemCount()
+#5 /var/www/yii/framework/web/CDataProvider.php(168): CActiveDataProvider->fetchData()
+#6 /var/www/yii/framework/zii/widgets/CBaseListView.php(111): CDataProvider->getData()
+#7 /var/www/yii/framework/zii/widgets/grid/CGridView.php(339): CBaseListView->init()
+#8 /var/www/yii/framework/web/CBaseController.php(147): CGridView->init()
+#9 /var/www/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#10 /var/www/yii/prototyp/protected/views/company/admin.php(62): CBaseController->widget('zii.widgets.gri...', Array)
+#11 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/pr...')
+#12 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/pr...', Array, true)
+#13 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/pr...', Array, true)
+#14 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#15 /var/www/yii/prototyp/protected/controllers/CompanyController.php(143): CController->render('admin', Array)
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionAdmin()
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/admin')
+#27 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/prototyp/index.php?Company%5Bid_company%5D=&Company%5Bname%5D=&Company%5Blegal_form%5D=&Company%5Bphone%5D=&Company%5Bemail%5D=&Company%5Bfax%5D=&Company%5Bwebsite%5D=&Company%5Baddress%5D=1&ajax=company-grid&r=company%2Fadmin
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/admin
+---
+2014/02/27 07:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php
+---
+2014/02/27 07:51:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "account" ("account_number", "id_person", "id_company", "correspondence_language", "correspondence_desired", "correspondence_address", "correspondence_person") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in /var/www/yii/prototyp/protected/controllers/AccountController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:51:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "account" ("account_number", "id_person", "id_company", "correspondence_language", "correspondence_desired", "correspondence_address", "correspondence_person") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/AccountController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): AccountController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('account/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=account/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=account/create
+---
+2014/02/27 07:56:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "confirmation" violates foreign key constraint "confirmation_acc_nr_fkey"
+DETAIL:  Key (acc_nr)=(1) is not present in table "account".. The SQL statement executed was: INSERT INTO "confirmation" ("acc_nr", "isin", "curr_date", "currentnav", "paidamount", "accuiredshares", "reference_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in /var/www/yii/prototyp/protected/controllers/ConfirmationController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/02/27 07:56:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "confirmation" violates foreign key constraint "confirmation_acc_nr_fkey"
+DETAIL:  Key (acc_nr)=(1) is not present in table "account".. The SQL statement executed was: INSERT INTO "confirmation" ("acc_nr", "isin", "curr_date", "currentnav", "paidamount", "accuiredshares", "reference_id") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/ConfirmationController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): ConfirmationController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('confirmation/cr...')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=confirmation/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=confirmation/create
+---
+2014/03/01 10:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/db_testdb.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/db_testdb.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/db_testdb.php
+---
+2014/03/01 11:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addacount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addacount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/db_testdb.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/db_testdb.php?r=addacount
+---
+2014/03/01 11:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/db_testdb.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/db_testdb.php?r=addaccount
+---
+2014/03/01 11:15:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount/inde...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/db_testdb.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/db_testdb.php?r=addaccount/index
+---
+2014/03/01 11:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount/index".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount/inde...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=addaccount/index
+---
+2014/03/01 11:16:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "AddAccountController".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('AddAccountContr...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=AddAccountController
+---
+2014/03/01 11:17:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=addaccount
+---
+2014/03/01 11:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=addaccount
+---
+2014/03/01 11:28:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=addaccount
+---
+2014/03/01 11:30:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/index
+---
+2014/03/01 11:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/test
+---
+2014/03/01 11:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/test
+---
+2014/03/01 11:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/test
+---
+2014/03/01 11:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/test
+---
+2014/03/01 11:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/test
+---
+2014/03/01 11:36:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/test
+---
+2014/03/01 11:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test&view=test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/03/01 11:37:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test&view=test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/page&view=about
+---
+2014/03/01 11:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test&view=test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=site/contact
+---
+2014/03/01 11:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test
+---
+2014/03/01 11:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=addaccount
+---
+2014/03/01 11:38:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=addaccount
+---
+2014/03/01 11:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "addaccount".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('addaccount')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=addaccount
+---
+2014/03/01 12:08:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "account" violates foreign key constraint "account_id_person_fkey"
+DETAIL:  Key (id_person)=(1) is not present in table "person".. The SQL statement executed was: INSERT INTO "account" ("account_number", "id_person", "id_company", "correspondence_language", "correspondence_desired", "correspondence_address", "correspondence_person") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in /var/www/yii/prototyp/protected/controllers/AccountController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:08:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  insert or update on table "account" violates foreign key constraint "account_id_person_fkey"
+DETAIL:  Key (id_person)=(1) is not present in table "person".. The SQL statement executed was: INSERT INTO "account" ("account_number", "id_person", "id_company", "correspondence_language", "correspondence_desired", "correspondence_address", "correspondence_person") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/AccountController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): AccountController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('account/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=account/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=account/create
+---
+2014/03/01 12:08:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test&view=test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=account/create
+---
+2014/03/01 12:16:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "none". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:16:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "none". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:16:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:16:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:17:40 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:17:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:18:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:18:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:21:37 [error] [exception.CException] exception 'CException' with message 'Property "CNumberValidator.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/validators/CValidator.php(189): CComponent->__set('0', 'required')
+#1 /var/www/yii/framework/base/CModel.php(287): CValidator::createValidator('numerical', Object(Company), 'id_company', Array)
+#2 /var/www/yii/framework/base/CModel.php(260): CModel->createValidators()
+#3 /var/www/yii/framework/base/CModel.php(304): CModel->getValidators('id_company')
+#4 /var/www/yii/framework/web/helpers/CHtml.php(1414): CModel->isAttributeRequired('id_company')
+#5 /var/www/yii/framework/web/widgets/CActiveForm.php(597): CHtml::activeLabelEx(Object(Company), 'id_company', Array)
+#6 /var/www/yii/prototyp/protected/views/company/_form.php(23): CActiveForm->labelEx(Object(Company), 'id_company')
+#7 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/pr...')
+#8 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/pr...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/pr...', Array, true)
+#10 /var/www/yii/prototyp/protected/views/company/create.php(18): CController->renderPartial('_form', Array)
+#11 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/pr...')
+#12 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/pr...', Array, true)
+#13 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/pr...', Array, true)
+#14 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#15 /var/www/yii/prototyp/protected/controllers/CompanyController.php(79): CController->render('create', Array)
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#27 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/index
+---
+2014/03/01 12:21:49 [error] [exception.CException] exception 'CException' with message 'Property "CNumberValidator.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/validators/CValidator.php(189): CComponent->__set('0', 'required')
+#1 /var/www/yii/framework/base/CModel.php(287): CValidator::createValidator('numerical', Object(Company), 'id_company', Array)
+#2 /var/www/yii/framework/base/CModel.php(260): CModel->createValidators()
+#3 /var/www/yii/framework/base/CModel.php(304): CModel->getValidators('id_company')
+#4 /var/www/yii/framework/web/helpers/CHtml.php(1414): CModel->isAttributeRequired('id_company')
+#5 /var/www/yii/framework/web/widgets/CActiveForm.php(597): CHtml::activeLabelEx(Object(Company), 'id_company', Array)
+#6 /var/www/yii/prototyp/protected/views/company/_form.php(23): CActiveForm->labelEx(Object(Company), 'id_company')
+#7 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/pr...')
+#8 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/pr...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/pr...', Array, true)
+#10 /var/www/yii/prototyp/protected/views/company/create.php(18): CController->renderPartial('_form', Array)
+#11 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/pr...')
+#12 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/pr...', Array, true)
+#13 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/pr...', Array, true)
+#14 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#15 /var/www/yii/prototyp/protected/controllers/CompanyController.php(79): CController->render('create', Array)
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#27 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/index
+---
+2014/03/01 12:22:46 [error] [php] include(integer.php): failed to open stream: No such file or directory (/var/www/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /var/www/yii/framework/validators/CValidator.php(186): import()
+#1 /var/www/yii/framework/base/CModel.php(287): createValidator()
+#2 /var/www/yii/framework/base/CModel.php(260): Company->createValidators()
+#3 /var/www/yii/framework/base/CModel.php(304): Company->getValidators()
+#4 /var/www/yii/framework/web/helpers/CHtml.php(1414): Company->isAttributeRequired()
+#5 /var/www/yii/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /var/www/yii/prototyp/protected/views/company/_form.php(23): CActiveForm->labelEx()
+#7 /var/www/yii/framework/web/CBaseController.php(126): require()
+#8 /var/www/yii/framework/web/CBaseController.php(95): CompanyController->renderInternal()
+#9 /var/www/yii/framework/web/CController.php(869): CompanyController->renderFile()
+#10 /var/www/yii/prototyp/protected/views/company/create.php(18): CompanyController->renderPartial()
+#11 /var/www/yii/framework/web/CBaseController.php(126): require()
+#12 /var/www/yii/framework/web/CBaseController.php(95): CompanyController->renderInternal()
+#13 /var/www/yii/framework/web/CController.php(869): CompanyController->renderFile()
+#14 /var/www/yii/framework/web/CController.php(782): CompanyController->renderPartial()
+#15 /var/www/yii/prototyp/protected/controllers/CompanyController.php(79): CompanyController->render()
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CompanyController->runAction()
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CompanyController->filterAccessControl()
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CompanyController->runActionWithFilters()
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CompanyController->run()
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /var/www/yii/prototyp/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+in /var/www/yii/prototyp/protected/views/company/_form.php (23)
+in /var/www/yii/prototyp/protected/views/company/create.php (18)
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (79)
+2014/03/01 12:23:12 [error] [exception.CException] exception 'CException' with message 'Property "CStringValidator.0" is not defined.' in /var/www/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /var/www/yii/framework/validators/CValidator.php(189): CComponent->__set('0', 'integer')
+#1 /var/www/yii/framework/base/CModel.php(287): CValidator::createValidator('length', Object(Company), 'id_company', Array)
+#2 /var/www/yii/framework/base/CModel.php(260): CModel->createValidators()
+#3 /var/www/yii/framework/base/CModel.php(304): CModel->getValidators('id_company')
+#4 /var/www/yii/framework/web/helpers/CHtml.php(1414): CModel->isAttributeRequired('id_company')
+#5 /var/www/yii/framework/web/widgets/CActiveForm.php(597): CHtml::activeLabelEx(Object(Company), 'id_company', Array)
+#6 /var/www/yii/prototyp/protected/views/company/_form.php(23): CActiveForm->labelEx(Object(Company), 'id_company')
+#7 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/pr...')
+#8 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/pr...', Array, true)
+#9 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/pr...', Array, true)
+#10 /var/www/yii/prototyp/protected/views/company/create.php(18): CController->renderPartial('_form', Array)
+#11 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/yii/pr...')
+#12 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/yii/pr...', Array, true)
+#13 /var/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/yii/pr...', Array, true)
+#14 /var/www/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#15 /var/www/yii/prototyp/protected/controllers/CompanyController.php(79): CController->render('create', Array)
+#16 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#17 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#26 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#27 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/index
+---
+2014/03/01 12:26:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "q". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:26:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "q". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:26:13 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:26:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:30:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:30:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:31:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:31:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:31:56 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""2"". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:31:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: ""2"". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:32:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "'2'". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:32:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "'2'". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:32:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:32:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:32:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7).
+in /var/www/yii/prototyp/protected/controllers/CompanyController.php (73)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/01 12:32:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type numeric: "". The SQL statement executed was: INSERT INTO "company" ("id_company", "name", "legal_form", "phone", "email", "fax", "website", "address") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7)' in /var/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /var/www/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /var/www/yii/prototyp/protected/controllers/CompanyController.php(73): CActiveRecord->save()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CompanyController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /var/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /var/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /var/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /var/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /var/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#13 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('company/create')
+#14 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=company/create
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=company/create
+---
+2014/03/01 12:57:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "account".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('account')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('account')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('account/account')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=account/account
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=account/
+---
+2014/03/01 12:57:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('index.php')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('index.php')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('account/index.p...')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=account/index.php
+---
+2014/03/01 12:57:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in /var/www/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(270): CController->missingAction('test')
+#1 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('test')
+#2 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/test')
+#3 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/yii/prototyp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/prototyp/index.php?r=site/test&view=test
+HTTP_REFERER=http://192.168.83.136/yii/prototyp/index.php?r=account
+---
+2014/03/03 02:35:10 [error] [php] Undefined variable: model1 (/var/www/yii/prototyp/protected/views/checkit/create.php:24)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): CheckitController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): CheckitController->renderPartial()
+#2 /var/www/yii/prototyp/protected/controllers/CheckitController.php(63): CheckitController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CheckitController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): CheckitController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): CheckitController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CheckitController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yii/prototyp/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/prototyp/index.php?r=checkit/create
+in /var/www/yii/prototyp/protected/views/checkit/create.php (24)
+in /var/www/yii/prototyp/protected/controllers/CheckitController.php (63)
+in /var/www/yii/prototyp/index.php (13)
+2014/03/03 02:40:41 [error] [php] Undefined variable: model1 (/var/www/yii/prototyp/protected/views/checkit/create.php:25)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(869): CheckitController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(782): CheckitController->renderPartial()
+#2 /var/www/yii/prototyp/protected/controllers/CheckitController.php(63): CheckitController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(49): CheckitController->actionCreate()
+#4 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(286): CheckitController->runAction()
+#6 /var/www/yii/framework/web/CController.php(265): CheckitController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(282): CheckitController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/yii/prototyp/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/prototyp/index.php?r=checkit/create
+in /var/www/yii/prototyp/protected/views/checkit/create.php (25)
+in /var/www/yii/prototyp/protected/controllers/CheckitController.php (63)
+in /var/www/yii/prototyp/index.php (13)

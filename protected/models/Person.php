@@ -37,6 +37,7 @@ class Person extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('id_person', 'required'),
+            array('id_person', 'numerical', 'integerOnly'=>true, 'min'=>0),
 			array('id_person', 'length', 'max'=>12),
 			array('phone, fax', 'length', 'max'=>20),
 			array('address', 'length', 'max'=>10),
