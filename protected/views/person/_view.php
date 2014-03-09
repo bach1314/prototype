@@ -33,6 +33,9 @@
 	<?php echo CHtml::encode($data->fax); ?>
 	<br />
 
+
+
+
 	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('address')); ?>:</b>
 	<?php echo CHtml::encode($data->address); ?>

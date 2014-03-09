@@ -51,9 +51,18 @@ class PersonController extends Controller
 	 */
 	public function actionView($id)
 	{
-		$this->render('view',array(
-			'model'=>$this->loadModel($id),
-		));
+//		$this->render('view',array(
+//			'model1'=>$this->loadModel($id),
+//		));
+//        $this->render('view',array(
+//            'model2'=>$this->loadModel($id),
+//        ));
+        $model =  $this->loadModel($id);
+        $this->render('view',array(
+            'model1'=>$model,
+            'model2'=> array(Address::model()->findByPk($model->address)),
+//            'model2'=> array($model->address=>Address::model()->findByPk($model->address)),
+        ));
 	}
 
 	/**
@@ -62,22 +71,40 @@ class PersonController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Person;
+		$model1=new Person;
+        $model2=new Address;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Person']))
+        if(!empty($_POST))
 		{
-			$model->attributes=$_POST['Person'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_person));
-		}
+			$model1->attributes=$_POST['Person'];
+//            echo CVarDumper::dump($model1);
+            $model2->attributes=$_POST['Address'];
+//            echo CVarDumper::dump($model2);
+
+
+            $valid=$model2->validate();
+            $valid=$model1->validate() && $valid;
+
+            if($valid)
+            {
+                $model2->save();
+                //$address = $model2->address_id;
+
+                //$model1->address = $model2;
+                $model1->save();
+                $this->redirect(array('view','id'=>$model1->id_person));
+            }
+        }
 
 		$this->render('create',array(
-			'model'=>$model,
+			'model1'=>$model1,
+            'model2'=>$model2,
 		));
-	}
+
+ 	}
 
 	/**
 	 * Updates a particular model.
@@ -85,23 +112,40 @@ class PersonController extends Controller
 	 * @param integer $id the ID of the model to be updated
 	 */
 	public function actionUpdate($id)
-	{
-		$model=$this->loadModel($id);
+    {
+        // Load user data in model1
+        $model1=Person::model1()->findByPk($id);
+        // Load address data in model2
+        $model2=Address::model2()->findByPk($model1->address);
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Person']))
-		{
-			$model->attributes=$_POST['Person'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_person));
-		}
+        if(!empty($_POST))
+        {
 
-		$this->render('update',array(
-			'model'=>$model,
-		));
-	}
+            $model2->attributes=$_POST['Address'];
+            $model1->attributes=$_POST['Person'];
+
+            // Validate all two model
+//            $valid=$model2->validate();
+//            $valid=$model1->validate() && $valid;
+//
+//            if($valid)
+//            {
+//                $model2->save();
+//                $model1->save();
+//            }
+
+            if($model1->validate() & $model2->validate())
+            {
+                 $model2->save();
+                 $model1->save();
+            }
+        }
+        $this->render('update',array(
+            'model1'=>$model1,
+            'model2'=>$model2,
+        ));
+    }
 
 	/**
 	 * Deletes a particular model.

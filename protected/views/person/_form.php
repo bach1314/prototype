@@ -1,6 +1,7 @@
 <?php
 /* @var $this PersonController */
-/* @var $model Person */
+/* @var $model1 Person */
+/* @var $model2 Address */
 /* @var $form CActiveForm */
 ?>
 
@@ -17,59 +18,117 @@
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+
+    <?php echo $form->errorSummary($model1); ?>
+
+
+
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_person'); ?>
-		<?php echo $form->textField($model,'id_person',array('size'=>12,'maxlength'=>12)); ?>
-		<?php echo $form->error($model,'id_person'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'title'); ?>
-		<?php echo $form->textField($model,'title'); ?>
-		<?php echo $form->error($model,'title'); ?>
+		<?php echo $form->labelEx($model1,'id_person'); ?>
+		<?php echo $form->textField($model1,'id_person',array('size'=>12,'maxlength'=>12)); ?>
+		<?php echo $form->error($model1,'id_person'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'family_name'); ?>
-		<?php echo $form->textField($model,'family_name'); ?>
-		<?php echo $form->error($model,'family_name'); ?>
+		<?php echo $form->labelEx($model1,'title'); ?>
+		<?php echo $form->textField($model1,'title'); ?>
+		<?php echo $form->error($model1,'title'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'surname'); ?>
-		<?php echo $form->textField($model,'surname'); ?>
-		<?php echo $form->error($model,'surname'); ?>
+		<?php echo $form->labelEx($model1,'family_name'); ?>
+		<?php echo $form->textField($model1,'family_name'); ?>
+		<?php echo $form->error($model1,'family_name'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'phone'); ?>
-		<?php echo $form->textField($model,'phone',array('size'=>20,'maxlength'=>20)); ?>
-		<?php echo $form->error($model,'phone'); ?>
+		<?php echo $form->labelEx($model1,'surname'); ?>
+		<?php echo $form->textField($model1,'surname'); ?>
+		<?php echo $form->error($model1,'surname'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email'); ?>
-		<?php echo $form->error($model,'email'); ?>
+		<?php echo $form->labelEx($model1,'phone'); ?>
+		<?php echo $form->textField($model1,'phone',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->error($model1,'phone'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'fax'); ?>
-		<?php echo $form->textField($model,'fax',array('size'=>20,'maxlength'=>20)); ?>
-		<?php echo $form->error($model,'fax'); ?>
+		<?php echo $form->labelEx($model1,'email'); ?>
+		<?php echo $form->textField($model1,'email'); ?>
+		<?php echo $form->error($model1,'email'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'address'); ?>
-		<?php echo $form->textField($model,'address',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'address'); ?>
+		<?php echo $form->labelEx($model1,'fax'); ?>
+		<?php echo $form->textField($model1,'fax',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->error($model1,'fax'); ?>
 	</div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+    <div class="row">
+        <?php echo $form->labelEx($model1,'address'); ?>
+        <?php echo $form->textField($model1,'address',array('size'=>10,'maxlength'=>10)); ?>
+        <?php echo $form->error($model1,'address'); ?>
+    </div>
+
+
+    <?php echo $form->errorSummary($model2); ?>
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'address_id'); ?>
+        <?php echo $form->textField($model2,'address_id',array('size'=>10,'maxlength'=>10)); ?>
+        <?php echo $form->error($model2,'address_id'); ?>
+    </div>
+
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'street'); ?>
+        <?php echo $form->textField($model2,'street'); ?>
+        <?php echo $form->error($model2,'street'); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'house_number'); ?>
+        <?php echo $form->textField($model2,'house_number'); ?>
+        <?php echo $form->error($model2,'house_number'); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'post_box'); ?>
+        <?php echo $form->textField($model2,'post_box'); ?>
+        <?php echo $form->error($model2,'post_box'); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'town'); ?>
+        <?php echo $form->textField($model2,'town'); ?>
+        <?php echo $form->error($model2,'town'); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'post_code'); ?>
+        <?php echo $form->textField($model2,'post_code'); ?>
+        <?php echo $form->error($model2,'post_code'); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'country'); ?>
+        <?php echo $form->textField($model2,'country'); ?>
+        <?php echo $form->error($model2,'country'); ?>
+    </div>
+
+    <div class="row">
+        <?php echo $form->labelEx($model2,'c_o'); ?>
+        <?php echo $form->textField($model2,'c_o'); ?>
+        <?php echo $form->error($model2,'c_o'); ?>
+    </div>
+
+
+    <div class="row buttons">
+		<?php echo CHtml::submitButton($model1->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
+
 
 <?php $this->endWidget(); ?>
 
