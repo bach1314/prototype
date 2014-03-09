@@ -1,6 +1,7 @@
 <?php
 /* @var $this PersonController */
-/* @var $model Person */
+/* @var $model1 Person */
+/* @var $model2 Address */
 
 $this->breadcrumbs=array(
 	'People'=>array('index'),
@@ -15,4 +16,4 @@ $this->menu=array(
 
 <h1>Create Person</h1>
 
-<?php $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php $this->renderPartial('_form', array('model1'=>$model1, 'model2' => $model2)); ?>
